@@ -14,13 +14,8 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:state_pressed="true"
-        android:drawable="@color/background_item_pressed" />
-    <item
-        android:state_activated="true"
-        android:drawable="@color/background_item_activated" />
-    <item
-        android:drawable="@color/background_item_transparent" />
-</selector>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+        android:color="@color/gallery_image_pressed">
+    <item android:id="@android:id/mask"
+          android:drawable="@android:color/white" />
+</ripple>

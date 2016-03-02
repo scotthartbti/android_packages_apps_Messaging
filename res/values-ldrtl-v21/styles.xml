@@ -14,13 +14,10 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:state_pressed="true"
-        android:drawable="@color/background_item_pressed" />
-    <item
-        android:state_activated="true"
-        android:drawable="@color/background_item_activated" />
-    <item
-        android:drawable="@color/background_item_transparent" />
-</selector>
+<resources>
+    <style name="ComposeMessageViewAttachMediaButtonStyle">
+        <item name="android:paddingStart">@dimen/compose_message_attachment_padding_sides</item>
+        <item name="android:paddingEnd">@dimen/compose_message_attachment_padding_sides</item>
+        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+    </style>
+</resources>

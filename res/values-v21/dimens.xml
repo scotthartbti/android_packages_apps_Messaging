@@ -14,13 +14,9 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:state_pressed="true"
-        android:drawable="@color/background_item_pressed" />
-    <item
-        android:state_activated="true"
-        android:drawable="@color/background_item_activated" />
-    <item
-        android:drawable="@color/background_item_transparent" />
-</selector>
+<resources>
+    <dimen name="fab_bottom_margin">16dp</dimen>
+    <dimen name="fab_left_right_margin">16dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="fab_padding_bottom">0dp</dimen>
+</resources>

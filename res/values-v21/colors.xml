@@ -14,13 +14,9 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:state_pressed="true"
-        android:drawable="@color/background_item_pressed" />
-    <item
-        android:state_activated="true"
-        android:drawable="@color/background_item_activated" />
-    <item
-        android:drawable="@color/background_item_transparent" />
-</selector>
+<resources>
+    <color name="notification_sender_text">#DE000000</color>
+    <color name="notification_secondary_text">#8A000000</color>
+    <color name="notification_tertiary_text">#8A000000</color>
+    <color name="notification_subject_color">#DE000000</color>
+</resources>
